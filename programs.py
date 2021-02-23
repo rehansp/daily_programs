@@ -19,3 +19,31 @@ i = -1
 while(i>=-l):
   print(x[i])
   i -=1
+  
+# check whether string is palindrome or not
+
+str = "madam"
+l1 = [] # empty list for forward string
+l2 = [] # empty list for backward string
+l = len(str)//2
+print("forward")
+i = 0 
+while(i<l):
+  print(str[i])
+  l1.append(str[i])
+  i+=1
+x = ''.join(l1)
+print("backward")
+i = -1
+while(i>=-l):
+  print(str[i])
+  l2.append(str[i])
+  i-=1
+y = ''.join(l2)
+
+if x == y:
+  print(f"{str} is palindrome")
+else:
+  print(f"{str} is not palindrome")
+
+
