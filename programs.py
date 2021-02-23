@@ -46,4 +46,15 @@ if x == y:
 else:
   print(f"{str} is not palindrome")
 
+# remove duplicates from an array
+
+def show_count(list):
+  for x in list:
+    if list.count(x)>1:
+      print(f"the count of {x} is {list.count(x)}")
+      list.remove(x)
+      print(list)
+    else:
+      print("duplicates nhi hain")
+show_count([1,2,3,4,5,6,7,7,8])
 
