@@ -35,7 +35,6 @@ while(i<l):
 x = ''.join(l1)
 print("backward")
 
-
 i = -1
 while(i>=-l):
   print(str[i])
@@ -67,7 +66,7 @@ b = 10
 
 # without using temporary variable
 
-a = a+b
+a = a + b
 b = a - b
 print("b : ",b)
 a = a-b
