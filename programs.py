@@ -34,6 +34,8 @@ while(i<l):
   i+=1
 x = ''.join(l1)
 print("backward")
+
+
 i = -1
 while(i>=-l):
   print(str[i])
@@ -57,4 +59,26 @@ def show_count(list):
     else:
       print("duplicates nhi hain")
 show_count([1,2,3,4,5,6,7,7,8])
+
+# swap two numbers
+
+a = 12 
+b = 10
+
+# without using temporary variable
+
+a = a+b
+b = a - b
+print("b : ",b)
+a = a-b
+print("a : ",a)
+
+# Using temp
+
+temp = a
+a = b
+print("a : ",a)
+b = temp
+print("b : ",b)
+
 
