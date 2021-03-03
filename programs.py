@@ -76,8 +76,19 @@ print("a : ",a)
 
 temp = a
 a = b
-print("a : ",a)
+print("a : ",a) 
 b = temp
 print("b : ",b)
 
+# count total of even and odd numbers in an array
+x = list(range(1,11))
+l_even = []
+l_odd = []
+for i in x:
+  if i % 2 == 0:
+    l_even.append(i)
+  else:
+    l_odd.append(i)
+print(sum(l_even))
+print(sum(l_odd))
 
