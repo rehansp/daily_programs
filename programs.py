@@ -92,3 +92,9 @@ for i in x:
 print(sum(l_even))
 print(sum(l_odd))
 
+# calculate sum of list without using inbuilt function
+s = [1,2,3,4,5]
+sum = 0
+for x in s:
+  sum = sum + x
+print(sum)
